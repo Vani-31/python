@@ -1,0 +1,33 @@
+name=["is","as","ad","we","you","to"]
+name[0]="for"
+print(name)
+print(name[-1])
+name.append("are")
+print(name)
+name.insert(2,"is")
+print(name)
+del name[0]
+print(name)
+n=name.pop()
+print(n)
+print(name)
+n=name.pop(3)
+print(n)
+print(name)
+ice="is"
+name.remove(ice)
+print(name)
+print(ice)
+print(sorted(name))
+print(sorted(name, reverse=True))
+name.reverse()
+print(name)
+name.reverse()
+print(name)
+name.sort()
+print(name)
+name.sort(reverse=True)
+print(name)
+print(len(name))
+print(name[-1])
+

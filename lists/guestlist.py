@@ -1,0 +1,46 @@
+guest=["dadi","dadaji","nani","nanaji"]
+
+print(f"it will be very happy momment to invite you for a dinner {guest[0]}")
+print(f"it would be you happy to see you and have a dinner with you {guest[1]}")
+print(f"plz come to dinner and can you plz bring that churan with you {guest[2]}")
+print(f"i would like to invite you to the dinner . it would really be fun {guest[3]}")
+print(f"{guest[3]} could not come to the meeting due to some reasons ")
+guest[3]="sunita taiji"
+print(guest)
+print(f"it will be very happy momment to invite you for a dinner {guest[0]}")
+print(f"it would be you happy to see you and have a dinner with you {guest[1]}")
+print(f"plz come to dinner and can you plz bring that churan with you {guest[2]}")
+print(f"i would like to invite you to the dinner . it would really be fun {guest[3]}")
+print("i just found a bigger dinner  table ")
+guest.insert(0,"chacha ji")
+guest.insert(3,"tauji")
+guest.append("taiji")
+print (guest)
+print(len(guest),"people are invited to the dinner")
+print(f"it will be very happy momment to invite you for a dinner {guest[0]}")
+print(f"it would be you happy to see you and have a dinner with you {guest[1]}")
+print(f"plz come to dinner and can you plz bring that churan with you {guest[2]}")
+print(f"i would like to invite you to the dinner . it would really be fun {guest[3]}")
+print(f"it will be very happy momment to invite you for a dinner {guest[4]}")
+print(f"it would be you happy to see you and have a dinner with you {guest[5]}")
+print(f"plz come to dinner and can you plz bring that churan with you {guest[6]}")
+print("i can invite only 2 people ")
+remove1=guest.pop()
+print(f"sorry {remove1}i cannot you to the dinner ")
+remove2=guest.pop()
+print(f"sorry {remove2}i cannot you to the dinner ")
+remove3=guest.pop()
+print(f"sorry {remove3}i cannot you to the dinner ")
+remove4=guest.pop()
+print(f"sorry {remove4}i cannot you to the dinner ")
+remove5=guest.pop()
+print(f"sorry {remove5}i cannot you to the dinner ")
+print(guest)
+print(f"{guest[0]},you are still there in the list you have to come ")
+print(f"{guest[1]},you are still there in the list you have to come ")
+del guest[1]
+del guest[0]
+print(guest)
+
+
+
